@@ -30,19 +30,12 @@ Modern, responsive SaaS landing page focused on clarity, conversion, and clean U
 ### Steps
 
 ```bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
+git clone https://github.com/massacodes/saas-landing-page.git
+cd saas-landing-page
 npm install
 ```
 
 ## Build Process
-
-The project uses Vite as the build tool. When you run `npm run build`, Vite will:
-
-- Bundle and optimize all assets
-- Minify HTML, CSS, and JavaScript
-- Generate production-ready files in the `public` directory
-- Optimize images and other static assets
 
 ## Usage
 

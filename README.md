@@ -46,7 +46,9 @@ The project uses Vite as the build tool. When you run `npm run build`, Vite will
 - Optimize images and other static assets
 
 =======
->>>>>>> ded873959ceabcb9b803e977814d2e5eec7f43c6
+
+> > > > > > > ded873959ceabcb9b803e977814d2e5eec7f43c6
+
 ## Usage
 
 Start the development server:
@@ -66,3 +68,7 @@ Preview the production build:
 ```bash
 npm run preview
 ```
+
+## Credits
+
+icons by FAUZUL KABIR from Noun Project

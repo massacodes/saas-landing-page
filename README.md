@@ -41,7 +41,7 @@ The project uses Vite as the build tool. When you run `npm run build`, Vite will
 
 - Bundle and optimize all assets
 - Minify HTML, CSS, and JavaScript
-- Generate production-ready files in the `public` directory
+- Generate production-ready files in the `dist` directory
 - Optimize images and other static assets
 
 ## Usage

@@ -137,30 +137,67 @@
               >Get Started</a
             >
           </div>
-        </div>
-        <!-- mobile menu -->
-        <div class="md:hidden flex flex-row items-center">
-          <button
-            class="md:hidden text-white hover:text-orange-500 focus:outline-none"
-            id="mobile-menu-button"
-            aria-label="Toggle navigation"
-          >
-            <svg
-              class="size-8 cursor-pointer"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+          <!-- mobile menu -->
+          <div class="md:hidden flex flex-row items-center">
+            <button
+              class="md:hidden text-black hover:text-blue-600 focus:outline-none"
+              id="mobile-menu-button"
+              aria-label="Toggle navigation"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              ></path>
-            </svg>
-          </button>
+              <svg
+                class="size-8 cursor-pointer"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
         </div>
+      </div>
+      <div
+        class="hidden flex-col items-center md:hidden px-4 pb-8 border-b border-gray-600 bg-gray-300"
+        id="mobile-menu"
+      >
+        <div class="w-full border-t border-white/20 pt-7 pb-2 text-center">
+          <a
+            href="#features"
+            class="text-base font-semibold text-black hover:text-orange-500 transition-colors"
+          >
+            Features
+          </a>
+        </div>
+
+        <div class="w-full py-2 text-center">
+          <a
+            href="#how-it-works"
+            class="text-base font-semibold text-black hover:text-orange-500 transition-colors"
+          >
+            How It Works
+          </a>
+        </div>
+
+        <div class="w-full py-2 text-center">
+          <a
+            href="#pricing"
+            class="text-base font-semibold text-black hover:text-orange-500 transition-colors"
+          >
+            Pricing
+          </a>
+        </div>
+        <a
+          href="#early-access"
+          class="rounded-lg bg-blue-600 px-8 py-2 mt-2 text-base font-black text-white hover:bg-blue-950 transition-all shadow-lg"
+        >
+          Get Early Access
+        </a>
       </div>
     </nav>
 
